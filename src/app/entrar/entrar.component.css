@@ -1,0 +1,50 @@
+#img-bg{
+    background-image: url('https://i.imgur.com/bpyqfpg.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+button{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+.background{
+    background-color: #fcfcfc;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border: 2px solid #e7e7e7;
+}
+
+input{
+    border: 1px solid rgb(255, 216, 144);
+}
+
+a{
+    color: rgb(218, 142, 29);
+}
+
+.titulo{
+    color: white;
+    font-family:'Copperplate';
+    letter-spacing: 4px;
+    font-size: 55px;
+}
+
+.texto{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Copperplate';
+    letter-spacing: 5px;
+}
+
+

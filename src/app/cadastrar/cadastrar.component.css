@@ -1,0 +1,17 @@
+#img-bg{
+    background-image: url('https://images.hdqwalls.com/download/ninja-hoodie-boy-4k-be-1280x720.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+.quadro{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border: 2px solid #e7e7e7;
+}

@@ -1,0 +1,16 @@
+.fs-54{
+    font-size: 54pt;
+}
+
+.fs-18{
+    font-size: 18pt;
+}
+
+.fundo-bg{
+    background-color: #f1f1f1;
+}
+
+.form-control:focus{
+    border-color: rgb(218, 142, 29);
+    box-shadow: 0 0 5px rgb(218, 142, 29);
+}
