@@ -26,6 +26,11 @@ export class TemaComponent implements OnInit {
       this.router.navigate(['/entrar'])
     }
 
+    if(environment.tipo != 'adm'){
+      this.alertas.showAlertInfo('Necessário acesso de administrador para incluir um tema!')
+      this.router.navigate(['/inicio'])
+    }
+
     this.findAllTemas() //Ao iniciar a pagina Temas irá listar todos os temas automaticamente
   }
 
