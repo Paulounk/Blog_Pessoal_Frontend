@@ -30,15 +30,14 @@
     height: 100vh;
 }
 
-.form-control:focus{
-    border-color: rgb(218, 142, 29);
-    box-shadow: 0 0 4px rgb(218, 142, 29);
-}
-
 .quadro{
     background-color: rgb(255, 255, 255);
     padding: 50px;
     border: 2px solid #e7e7e7;
+}
+
+::placeholder{
+    color: rgb(194, 194, 194);
 }
 
 .titulo{

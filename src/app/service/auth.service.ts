@@ -26,6 +26,7 @@ export class AuthService {
     return this.http.get<User>(`https://blogpaulolps.herokuapp.com/usuarios/${id}`)
   }
 
+
   logado(){
     let ok: boolean = false
 

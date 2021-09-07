@@ -12,29 +12,28 @@
 
                     <div class="form-group">
                         <label for="nome">Nome</label>
-                        <input [(ngModel)]='user.nome' class="form-control" type="text" name="nome" id="nome">
+                        <input [(ngModel)]='user.nome' class="form-control" type="text" name="nome" id="nome" placeholder="Nome">
                     </div>
 
                     <div class="form-group">
                         <label for="user">Usuário</label>
-                        <input [(ngModel)]='user.usuario' class="form-control" type="text" name="user" id="user">
+                        <input [(ngModel)]='user.usuario' class="form-control" type="text" name="user" id="user" placeholder="usuario@email.com">
                     </div>
 
                     <div class="form-group">
                         <label for="foto">Foto</label>
-                        <input [(ngModel)]='user.foto' class="form-control" type="text" name="foto" id="foto">
+                        <input [(ngModel)]='user.foto' class="form-control" type="text" name="foto" id="foto" placeholder="Link da foto">
                     </div>
 
                     <div class="form-group">
                         <label for="senha">Senha</label>
-                        <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha"
-                            id="senha">
+                        <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha" id="senha" placeholder="Senha">
                     </div>
 
                     <div class="form-group">
                         <label for="confirmSenha">Confirmar Senha</label>
                         <input [(ngModel)]="user.senha" class="form-control" type="password" name="confirmSenha"
-                            id="confirmSenha">
+                            id="confirmSenha" placeholder="Repita a senha">
                     </div>
 
                     <div class="form-group">

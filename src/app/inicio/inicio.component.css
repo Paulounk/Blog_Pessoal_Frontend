@@ -9,3 +9,13 @@
 .fundo-bg{
     background-color: #f1f1f1;
 }
+
+.card-columns{
+    display:inline;
+    border-radius: 20%;
+}
+
+.card{
+    border-radius: 30px;
+    padding: 0;
+}

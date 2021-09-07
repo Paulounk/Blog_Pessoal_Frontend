@@ -44,7 +44,7 @@ button{
 
 .form-control:focus{
     border-color: rgb(218, 142, 29);
-    box-shadow: 0 0 4px rgb(218, 142, 29);
+    box-shadow: 0 0 2px rgb(218, 142, 29);
 }
 
 
