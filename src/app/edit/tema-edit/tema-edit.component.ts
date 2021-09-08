@@ -45,6 +45,11 @@ export class TemaEditComponent implements OnInit {
       this.tema = resp
       this.alertas.showAlertSuccess('Tema atualizado com sucesso!')
       this.router.navigate(['/tema'])
+    }, err =>{
+      if(err.status == 400) {
+        this.alertas.showAlertDanger('Esse tema não pode ser atualizado, pois já pertence a uma postagem!')
+        this.router.navigate(['/tema'])
+      }
     })
   }
 

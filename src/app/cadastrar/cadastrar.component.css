@@ -9,7 +9,7 @@
 
 @keyframes slid-linha {
     from { 
-        transform: translateX(-50vh);
+        transform: translateX(50vw);
     }
     to { 
         transform: translateX(0);
@@ -18,7 +18,8 @@
 
 #img-bg{
     background-image: url('https://images.hdqwalls.com/download/cameraman-silhouette-rl-1280x720.jpg');
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
