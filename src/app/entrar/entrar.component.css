@@ -1,6 +1,6 @@
 @keyframes slid {
     from { 
-        transform: translateY(-50vw);
+        transform: translateY(-50vh);
     }
     to { 
         transform: translateX(0);
@@ -9,7 +9,7 @@
 
 @keyframes slid-linha {
     from { 
-        transform: translateX(-50vh);
+        transform: translateX(-40vw);
     }
     to { 
         transform: translateX(0);
